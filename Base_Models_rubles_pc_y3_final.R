@@ -8,9 +8,8 @@ library(modelsummary)
 
 # Чтение файлов
 
-y1 <- read.csv('https://raw.githubusercontent.com/ShapovalovaMariia/coursework3/refs/heads/main/y1_R.csv')
-y2 <- read.csv('https://raw.githubusercontent.com/ShapovalovaMariia/coursework3/refs/heads/main/y2_R.csv')
-y3 <- read.csv('https://raw.githubusercontent.com/ShapovalovaMariia/coursework3/refs/heads/main/y3_R.csv')
+y2 <- read.csv('y2_R.csv')
+y3 <- read.csv('y3_R.csv')
 
 #spec1 = ['ln_population', 'ln_grp_pc_L1', 'log_growth', 'russian_share'] # базовая спецификация
 #spec2 = ['ln_population', 'ln_grp_pc_L1', 'log_growth', 'russian_share', 'turnout'] # + административный ресурс (явка)
